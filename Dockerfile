@@ -1,4 +1,4 @@
-FROM webdevops/php-apache:7.0
+FROM webdevops/php-apache:7.2
 
 RUN mkdir -p setup && cd setup && \
   curl -sSL https://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.tar.gz -o ioncube.tar.gz && \
